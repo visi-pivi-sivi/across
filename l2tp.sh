@@ -414,6 +414,7 @@ EOF
 
 compile_install(){
 
+    # mv -f ${cur_dir}/l2tp ${cur_dir}/l2tp,backup
     rm -rf ${cur_dir}/l2tp
     mkdir -p ${cur_dir}/l2tp
     cd ${cur_dir}/l2tp
